@@ -12,7 +12,7 @@ app.use(express.json());
 
 app.use(express.static('build'));
 router.use(function (req, res) {
-  res.sendFile(path.join(__dirname, "../../build/index.html"));
+  res.sendFile(path.join(__dirname, "./build/"));
 });
 
 app.listen(PORT, function () {

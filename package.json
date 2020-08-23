@@ -1,10 +1,10 @@
 {
   "name": "react-portfolio",
   "version": "0.1.0",
-  "description": "Cris's React Portfolio ",
-  "main": "serve -s build",
+  "private": true,
   "dependencies": {
     "express": "^4.17.0",
+    "nodemon": "^2.0.4",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
@@ -17,15 +17,14 @@
     "react-scrollmagic": "^2.2.0"
   },
   "scripts": {
-    "start": "serve -s build",
+    "start": "react-scripts start",
     "watch": "nodemon server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject",
-    "heroku-postbuild": "npm run build"
+    "eject": "react-scripts eject"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
+  "eslintConfig": {
+    "extends": "react-app"
   },
   "browserslist": {
     "production": [
