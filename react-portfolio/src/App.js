@@ -1,7 +1,13 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import Portfolio from "./pages/Portfolio"
+import Portfolio from "./pages/Portfolio";
+import About from "./pages/About";
+import Contact from "./pages/Contact";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Navbar from "./components/NavBar";
+import Footer from "./components/Footer";
+
 import { Controller, Scene } from 'react-scrollmagic';
 
 function App() {
@@ -30,7 +36,20 @@ function App() {
   // })
 
   return (
-    <Portfolio />
+    <div>
+      <Navbar />
+      <Router>
+
+        <Switch>
+          <Route exact path="/" component={Portfolio} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/contact" component={Contact} />
+        </Switch>
+
+      </Router>
+      <Footer />
+    </div>
   );
 }
 

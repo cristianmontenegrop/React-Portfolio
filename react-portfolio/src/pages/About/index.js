@@ -5,7 +5,7 @@ import ContactMe from "../../components/ContactMe";
 import './style.css';
 
 
-function Portfolio() {
+function About() {
     return (<div>
         <Projects />
         <AboutMe />
@@ -14,4 +14,4 @@ function Portfolio() {
     )
 }
 
-export default Portfolio;
+export default About;

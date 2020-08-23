@@ -1,7 +1,7 @@
 import React from "react";
 import Button from 'react-bootstrap/Button';
 import './style.css';
-import Project from "../../components/Project"
+import Project from "../Project"
 
 function Projects() {
 

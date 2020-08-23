@@ -17,9 +17,9 @@ function NavBar() {
             <div className="container">
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav">
-                        <a id="about-nav" href="#about-me"> ABOUT</a>
-                        <a id="port-nav" href="#portfolio"> PORTFOLIO</a>
-                        <a id="contact-nav" href="#contact"> CONTACT</a>
+                        <a id="port-nav" href="/portfolio/#portfolio"> PORTFOLIO</a>
+                        <a id="about-nav" href="/about/#about-me"> ABOUT</a>
+                        <a id="contact-nav" href="/contact/#contact"> CONTACT</a>
                     </div>
                 </div>
             </div>
@@ -28,9 +28,9 @@ function NavBar() {
         // <Navbar className="nb" sticky="top" bg="light" variant="light">
         //     {/* <Navbar.Brand href="#home">Navbar</Navbar.Brand> */}
         //     <Nav className="mr-auto navbar-nav">
-        //         <Nav.Link href="#Projects">Portfolio</Nav.Link>
-        //         <Nav.Link href="#AboutMe">About</Nav.Link>
-        //         <Nav.Link href="#ContactMe">Contact</Nav.Link>
+        //         <Nav.Link id="port-nav" href="#Projects">Portfolio</Nav.Link>
+        //         <Nav.Link id="about-nav" href="#AboutMe">About</Nav.Link>
+        //         <Nav.Link id="contact-nav" href="#ContactMe">Contact</Nav.Link>
         //     </Nav>
         // </Navbar>
     )
