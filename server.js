@@ -1,6 +1,7 @@
 var express = require("express");
 var app = express();
-const routes = require("./routes/routes");
+// const routes = require("./routes/routes");
+const router = require("express").Router();
 
 var PORT = process.env.PORT || 3000;
 
@@ -10,7 +11,7 @@ app.use(express.urlencoded({
 app.use(express.json());
 
 app.use(express.static('build'));
-app.get("/", function (req, res) {
+router.use(function (req, res) {
   res.sendFile(path.join(__dirname, "../../build/index.html"));
 });
 

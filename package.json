@@ -2,7 +2,7 @@
   "name": "react-portfolio",
   "version": "0.1.0",
   "description": "Cris's React Portfolio ",
-  "main": "server.js",
+  "main": "serve -s build",
   "dependencies": {
     "express": "^4.17.0",
     "@testing-library/jest-dom": "^4.2.4",
