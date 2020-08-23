@@ -1,0 +1,39 @@
+/* Footer */
+
+#footer {
+    background: #cccccc;
+  }
+  
+  #back-to-top {
+    transform: rotate(270deg);
+    position: relative;
+    bottom: 22px;
+    background: #8c8c8c;
+    padding: 5px 10px;
+  }
+  
+  #back-to-top:hover {
+    background: #34645a;
+  }
+  
+  .link-text {
+    color: #666666;
+  }
+  
+  .link-text:hover {
+    color: #34645a;
+  }
+  
+  
+  .icons {
+    background: #8c8c8c;
+    padding: 15px;
+    margin-top: 35px;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 65px;
+  }
+  
+  .icons:hover {
+    background: #34645a;
+  }

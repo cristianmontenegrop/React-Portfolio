@@ -1,0 +1,71 @@
+#contact {
+    background: #cccccc;
+  }
+  
+  #contact-heading {
+    color: white;
+    margin-top: 65px;
+  }
+  
+  #contact-underline {
+    border: 1px solid white;
+  }
+  
+  #contact-tag {
+    color: #34645a;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  
+  .input {
+    background: #8c8c8c;
+    border: none;
+    width: 100%;
+    height: 35px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    color: white;
+  }
+  
+  ::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1;
+    /* Firefox */
+  }
+  
+  :-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+  }
+  
+  ::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: white;
+  }
+  
+  #contact-form {
+    margin-top: 25px;
+  }
+  
+  #message-input {
+    height: 300px;
+  }
+  
+  #submit-btn {
+    height: 50px;
+    width: 130px;
+    border: 2px solid white;
+    background: #8c8c8c;
+    color: white;
+    margin-bottom: 65px;
+    font-size: 16px;
+    ;
+  }
+  
+  #submit-btn:hover {
+    cursor: pointer;
+    transition: .3s;
+    font-size: 18px;
+    background: #34645a;
+  }

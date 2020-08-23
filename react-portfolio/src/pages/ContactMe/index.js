@@ -1,7 +1,12 @@
 import React from "react";
+import Button from 'react-bootstrap/Button';
+import Form from 'react-bootstrap/Form';
+// import Form from 'react-bootstrap/Form';
+import './style.css';
 
 function ContactMe() {
     return (
+
         <div id="contact">
 
             <div className="container">
@@ -40,6 +45,9 @@ function ContactMe() {
 
             </div>
         </div>
+
+
+
     )
 }
 

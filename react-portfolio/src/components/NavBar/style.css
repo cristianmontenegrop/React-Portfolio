@@ -1,0 +1,19 @@
+.nb {
+    background: #cccccc;
+    border-bottom: 5px solid #34645a;
+    height: 60px;
+    font-weight: 100;
+  }
+  
+  .navbar-nav a {
+    padding-right: 50px;
+    color: white;
+  }
+  
+  .navbar-nav a:hover {
+    text-decoration: none;
+  }
+  
+  .highlight {
+    color: #34645a !important;
+  }

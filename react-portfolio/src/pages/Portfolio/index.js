@@ -1,15 +1,17 @@
 import React from "react";
-import NavBar from "../NavBar";
+import NavBar from "../../components/NavBar";
 import Projects from "../Projects";
 import AboutMe from "../AboutMe";
 import ContactMe from "../ContactMe";
 import Footer from "../Footer";
+import Button from 'react-bootstrap/Button';
+import './style.css';
 
 
 function Portfolio() {
     return (<div>
         <NavBar />
-        <Projects />
+        {/* <Projects /> */}
         <AboutMe />
         <ContactMe />
         <Footer />

@@ -1,4 +1,5 @@
 import React from "react";
+import "./style.css";
 
 function AboutMe() {
     return (
@@ -20,7 +21,7 @@ function AboutMe() {
                     {/* <!-- Bullet 1 --> */}
                     <div className="col-md-3 text-center">
                         <div className="hexagon fb mx-auto">
-                            <img src="assets/images/speedometer-48.png" />
+                            <img src={require("../../images/speedometer-48.png")} alt="" />
                         </div>
                         <h4 className="bullet-title">Fast</h4>
                         <div className="bullet-text">
@@ -30,7 +31,7 @@ function AboutMe() {
                     {/* <!-- Bullet Two --> */}
                     <div className="col-md-3 text-center">
                         <div className="hexagon fb mx-auto">
-                            <img src="assets/images/rocket-48.png" />
+                            <img src={require("../../images/rocket-48.png")} alt="" />
                         </div>
                         <h4 className="bullet-title">Dynamic</h4>
                         <div className="bullet-text">
@@ -40,7 +41,7 @@ function AboutMe() {
                     {/* <!-- Bullet Three --> */}
                     <div className="col-md-3 text-center">
                         <div className="hexagon fb mx-auto">
-                            <img src="assets/images/tablet-2-48.png" />
+                            <img src={require("../../images/tablet-2-48.png")} alt="" />
                         </div>
                         <h4 className="bullet-title">Responsive</h4>
                         <div className="bullet-text">
@@ -50,7 +51,7 @@ function AboutMe() {
                     {/* <!-- Bullet Four --> */}
                     <div className="col-md-3 text-center">
                         <div className="hexagon fb mx-auto">
-                            <img src="assets/images/lightbulb-2-48.png" />
+                            <img src={require("../../images/lightbulb-2-48.png")} alt="" />
                         </div>
                         <h4 className="bullet-title">Intuitive</h4>
                         <div className="bullet-text">
@@ -66,7 +67,7 @@ function AboutMe() {
                     {/* <!-- 1st column --> */}
                     <div className="col-lg-6 text-center">
                         <div id="bio">
-                            <img id="headshot" src="./assets/images/cristian-image.png" alt="Cristian Montenegro"
+                            <img id="headshot" src={require("../../images/cristian-image.png")} alt="Cristian Montenegro"
                                 className="img-fluid" />
                             <h4 id="headshot-title">Who is this guy?</h4>
                             <p id="about-me-text">I'm Cristian Montenegro, a Full-Stack Web Developer based in Seattle, WA.
