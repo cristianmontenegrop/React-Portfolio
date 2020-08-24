@@ -1,6 +1,6 @@
 import React from "react";
-import './style.css'
-
+import './style.css';
+import Image from "react-bootstrap/Image"
 function Footer() {
     return (
         <div id="footer">
@@ -27,13 +27,13 @@ function Footer() {
                 <div className="row">
                     <div className="col-12 text-center">
                         <a href="https://www.linkedin.com/in/cristian-montenegro-b21786106/" target="_blank" rel="noopener noreferrer">
-                            <img src={require("../../images/linkedin-24.png")} className="icons" alt="" />
+                            <Image rc={require("../../images/linkedin-24.png")} className="icons" alt="" />
                         </a>
                         <a href="https://github.com/cristianmontenegrop" target="_blank" rel="noopener noreferrer">
-                            <img src={require("../../images/github-6-24.png")} className="icons" alt="" />
+                            <Image src={require("../../images/github-6-24.png")} className="icons" alt="" />
                         </a>
                         <a href={require("../../pdf/resume.pdf")} download>
-                            <img src={require("../../images/document-2-24.png")} className="icons" id="resume-icon" alt="" />
+                            <Image src={require("../../images/document-2-24.png")} className="icons" id="resume-icon" alt="" />
                         </a>
                     </div>
                 </div>

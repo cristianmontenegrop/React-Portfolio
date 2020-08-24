@@ -1,8 +1,7 @@
 var express = require("express");
 var app = express();
 var path = require("path");
-// const routes = require("./routes/routes");
-// const router = require("express").Router();
+
 
 var PORT = process.env.PORT || 3000;
 

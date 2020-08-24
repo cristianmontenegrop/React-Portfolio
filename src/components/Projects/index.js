@@ -1,5 +1,4 @@
 import React from "react";
-import Button from 'react-bootstrap/Button';
 import './style.css';
 import Project from "../Project"
 
@@ -85,7 +84,6 @@ function Projects() {
                         imageAlt="Template Engine Employee Summary Project" />
                 </div>
             </div>
-            {/* <!-- Used to create space without adjusting css --> */}
             <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         </div>
     )

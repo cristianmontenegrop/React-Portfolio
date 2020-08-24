@@ -5,7 +5,6 @@ import Image from "react-bootstrap/Image"
 function Project({ title, summary, tech, gitLink, appLink, imageSrc, imageAlt }) {
 
 
-    console.log("IMAGE SRC:", imageSrc)
     return (
 
         <div className="col-lg-4">
